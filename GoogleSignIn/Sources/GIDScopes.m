@@ -61,7 +61,7 @@ static NSArray *addScopeTo(NSArray *originalScopes,
 @implementation GIDScopes
 
 + (NSArray *)scopesWithBasicProfile:(NSArray *)scopes {
-  scopes = addScopeTo(scopes, hasEmail, kEmailScope);
+//  scopes = addScopeTo(scopes, hasEmail, kEmailScope);
   scopes = addScopeTo(scopes, hasCalendar, kOldCalendarScope);
   return scopes;
 //  return addScopeTo(scopes, hasProfile, kProfileScope);
